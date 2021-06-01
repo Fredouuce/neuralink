@@ -1,0 +1,123 @@
+@media (min-width: 1080px) {
+  //Modifications pour les ordinateurs d'un écran plus de 1280px
+  header {
+    nav {
+      margin-top: 0;
+      flex-direction: row;
+
+      img {
+        padding: 0;
+        margin: 2em;
+      }
+      ul {
+        position: relative;
+        bottom: 18px;
+        margin: 0;
+        width: 100vw;
+        display: flex;
+        justify-content: flex-end;
+        li {
+          padding: 0;
+
+          width: 150px;
+          &:nth-child(4) {
+            margin-right: 2em;
+          }
+          a {
+            display: inline-block;
+            position: relative;
+            &::after {
+              //animation de hover
+              display: block;
+              bottom: -10px;
+              content: "";
+              background: white;
+              width: 0%;
+              height: 2px;
+              position: absolute;
+              transition: 0.3s ease-in-out;
+              left: 50%;
+            }
+            &:hover::after {
+              width: 100%;
+              left: 0;
+            }
+          }
+        }
+      }
+    }
+    .header-img {
+      position: relative;
+
+      img {
+        position: relative;
+        top: 50%;
+        transform: translate(-50%);
+        max-width: 800px;
+        max-height: none;
+      }
+    }
+  }
+
+  section {
+    .article0 {
+      .header-content {
+        h1 {
+          font-size: 4em;
+        }
+      }
+    }
+    .article1 {
+      //modification pour le format ordinateur
+      margin-top: 5em;
+
+      .article1-content {
+        left: 70%;
+        bottom: 45%;
+        text-align: center;
+        h2 {
+          font-size: 4rem;
+        }
+      }
+
+      /*.modal {
+        .modal-wrapper {
+          width: 50vw;
+        }
+      }*/
+    }
+
+    .article2 {
+      .article2-content {
+        left: 65%;
+        bottom: 45%;
+        text-align: center;
+        h2 {
+          font-size: 4rem;
+        }
+      }
+
+      /*  .modalTony {
+        .modalTony-wrapper {
+          width: 50vw;
+          padding: 10em;
+
+          .position {
+            bottom: -100px;
+          }
+        }
+      }*/
+    }
+
+    .article3 {
+      .article3-content {
+        bottom: 0;
+        left: 12%;
+        top: 35%;
+        h2 {
+          font-size: 4rem;
+        }
+      }
+    }
+  }
+}

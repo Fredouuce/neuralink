@@ -1,0 +1,40 @@
+section {
+  .article0 {
+    height: 100vh;
+    .header-content {
+      width: 100vw;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      padding-bottom: 1em;
+      a {
+        font-size: 2em;
+
+        color: white;
+        i {
+          position: relative;
+          left: 50%;
+          transform: translate(-50%);
+        }
+      }
+
+      .crossUp {
+        i {
+          padding-bottom: 1.5em;
+        }
+      }
+      h1 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        span {
+          color: #3b3db6;
+        }
+        margin-bottom: 2em;
+        text-align: center;
+      }
+    }
+  }
+}

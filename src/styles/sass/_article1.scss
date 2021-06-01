@@ -1,0 +1,87 @@
+section {
+  .article1 {
+    overflow-x: hidden;
+    position: relative;
+    img {
+      height: 100vh;
+      position: relative;
+      left: -190px;
+    }
+
+    .article1-content {
+      color: white;
+      position: absolute;
+      left: 20px;
+      bottom: 80px;
+      z-index: 1000;
+      span {
+        color: rgb(233, 33, 189);
+      }
+      h2 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        padding-bottom: 0.5em;
+        font-size: 2.5em;
+      }
+      a {
+        text-decoration: none;
+        font-size: 1em;
+        border-radius: 50px;
+        cursor: pointer;
+        margin-top: 1em;
+        padding: 0.5em;
+        text-transform: uppercase;
+        background: transparent;
+        color: white;
+        border: 1px solid white;
+
+        &:hover {
+          background: white;
+          color: black;
+        }
+      }
+    }
+    /* .modal {
+      //Fenêtre modal
+      position: fixed;
+      z-index: 10000;
+      bottom: 10px;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.8);
+      opacity: 0;
+      pointer-events: none;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+
+      .modal-wrapper {
+        padding: 1em;
+        overflow-y: auto;
+        position: relative;
+        bottom: 0;
+        background: white;
+        height: calc(100vh - 20px);
+        width: calc(100vw - 20px);
+        position: absolute;
+        color: black;
+        button {
+          font-size: 1.5em;
+          background: none;
+          border: none;
+          cursor: pointer;
+          position: absolute;
+          top: 15px;
+          right: 25px;
+        }
+      }
+    }
+
+    .modal-appear {
+      opacity: 1;
+      pointer-events: auto;
+    }*/
+  }
+}

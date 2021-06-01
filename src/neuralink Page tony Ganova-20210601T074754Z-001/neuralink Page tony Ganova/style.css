@@ -1,0 +1,52 @@
+body{
+	background-color:#011126;
+	font-family:"MontSerrat";
+}
+.neuralink{
+	display:flex;
+	justify-content: center;
+}
+.titre{
+	margin:10px;
+	padding:10px;
+	font-size: 45px;
+	color:#F3F7F7;
+	display:flex;
+	
+
+}
+
+.texte{
+	color:#F7EED9;
+	margin:12px;
+	padding:12px;
+    font-size:22px;
+}
+.image{
+	margin:12px;
+	padding:12px;
+	width:250px;
+	height:250px;
+	border-radius:50%;
+}
+
+.position{
+	display:flex;
+	justify-content: center;
+}
+
+@media (min-width: 800px){
+	.neuralink{
+		justify-content:flex-start;
+	}
+
+	.titre{
+		font-size:200px;
+	}
+
+	.texte{
+		font-size:35px;
+	}
+	
+	
+}
